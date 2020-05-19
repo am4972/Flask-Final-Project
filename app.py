@@ -10,6 +10,7 @@ app = Flask(__name__)
 def hello():
     return render_template("index.html")
 
+
 #start the server
 if __name__ == "__main__":
     app.run()
